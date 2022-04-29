@@ -5,3 +5,4 @@ services:
     working_dir: /home/node/app
     volumes:
       - ./src:/home/node/app
+    command: node index.js
